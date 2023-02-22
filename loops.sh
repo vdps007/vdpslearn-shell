@@ -1,6 +1,6 @@
 read -p 'enter the last number: ' num1
 echo "your last number is = ${num1}"
-b=2
+b=1
 
 while [ $b -le 2 ]
 do
