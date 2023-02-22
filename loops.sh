@@ -1,3 +1,3 @@
 while [ i=1;i<=10;i++ ] do
-    echo $id
+    echo $i
 done
