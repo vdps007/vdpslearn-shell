@@ -4,4 +4,7 @@ echo "your name = ${name}"
 for (( i=1; i<=10; i++ )) do
     echo $i
     sleep 1
+    if [ $i == 10 ]; then
+        echo 'end of the script'
+    fi
 done
